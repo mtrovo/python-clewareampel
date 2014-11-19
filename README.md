@@ -23,16 +23,16 @@ happen when you have to Ampels plugged.
 
 ## On the command line
 
-    usage: clewareampel.py [-h] [--all-on] [--all-off] [--red] [--red-on]
-                           [--red-off] [--yellow] [--yellow-on] [--yellow-off]
-                           [--green] [--green-on] [--green-off]
+    usage: clewareampel.py [-h] [--all-on] [--off] [--red] [--red-on] [--red-off]
+                           [--yellow] [--yellow-on] [--yellow-off] [--green]
+                           [--green-on] [--green-off]
 
     Cleware Ampel
 
     optional arguments:
       -h, --help    show this help message and exit
       --all-on      Switch all lights on
-      --all-off     Switch all lights off
+      --off         Switch all lights off
       --red         Switch only red light on
       --red-on      Switch red light on
       --red-off     Switch red light off
