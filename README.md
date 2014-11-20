@@ -10,7 +10,7 @@ python-clewareampel
 Control the Cleware USB Ampel (traffic lights) with Python.
 
 In this version only one Ampel can be controlled. It was not tested what will
-happen when you have to Ampels plugged.
+happen when you have two Ampels plugged.
 
 
 ## In code
@@ -20,6 +20,7 @@ happen when you have to Ampels plugged.
     with ClewareAmpel as ampel:
         ampel.green_only()
 
+Have a look into `example.py` or just run it to see if your Ampel is working.
 
 ## On the command line
 
