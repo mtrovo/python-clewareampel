@@ -5,7 +5,7 @@ import usb.core
 import usb.util
 
 
-__version__ = '2014.11.19'
+__version__ = '2014.11.20'
 
 
 OFF = 0x0
@@ -33,10 +33,7 @@ class ClewareAmpel:
     def __exit__(self, type, value, traceback):
         usb.util.dispose_resources(self.device)
         if self.reattach:
-            try:
-                self.device.attach_kernel_driver(self.interface)
-            except:
-                pass
+            self.device.attach_kernel_driver(self.interface)
 
     def _set_led(self, color, value):
         self.device.ctrl_transfer(0x21, 0x09, 0x200, 0x00, [0x00, color, value])
