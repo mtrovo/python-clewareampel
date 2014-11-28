@@ -1,5 +1,11 @@
-python-clewareampel [![version](https://pypip.in/v/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel) [![Supported Python versions](https://pypip.in/py_versions/clewareampel/badge.svg?style=flat)](https://pypi.python.org/pypi/clewareampel/) [![format](https://pypip.in/format/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel) [![license](https://pypip.in/license/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel)
+python-clewareampel
 ===================
+
+[![version](https://pypip.in/v/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel)
+[![Supported Python versions](https://pypip.in/py_versions/clewareampel/badge.svg?style=flat)](https://pypi.python.org/pypi/clewareampel/)
+[![format](https://pypip.in/format/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel)
+[![downloads](https://pypip.in/d/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel)
+[![license](https://pypip.in/license/clewareampel/badge.png?style=flat)](https://pypi.python.org/pypi/clewareampel)
 
 Control the Cleware USB Ampel (traffic lights) with Python.
 
